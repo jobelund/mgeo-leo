@@ -120,6 +120,12 @@ need no network access.
 
 ## Credits
 
-Maintained by **José Beltrán**. Created for a seminar (held **2026-06-08**)
-within the **Lund University Earth Observation (LEO) Group** of the **MGEO
-department**.
+Maintained by **José Beltrán** (jose.beltran@mgeo.lu.se). The notebook was
+built collaboratively using **Claude Code** (model: **Claude Opus 4.8**,
+1M-context). Created for a seminar (held **2026-06-08**) within the **Lund
+University Earth Observation (LEO) Group** of the **MGEO department**.
+
+## License
+
+Released into the public domain under [**CC0 1.0 Universal**](LICENSE) — no
+rights reserved.

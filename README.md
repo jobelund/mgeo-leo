@@ -22,6 +22,12 @@ uv run marimo edit demo-openeo.py    # or: uv run marimo run demo-openeo.py
 Each demo folder has its own `README.md` with full setup instructions (see the
 [uv quick start](seminars/2026-06-08-marimo-openeo/README.md)).
 
+## License
+
+Released into the public domain under [**CC0 1.0 Universal**](LICENSE) — no
+rights reserved.
+
 ---
 
-Maintained by **José Beltrán** · LEO Group, MGEO department, Lund University.
+Maintained by **José Beltrán** (jose.beltran@mgeo.lu.se) · LEO Group, MGEO
+department, Lund University.

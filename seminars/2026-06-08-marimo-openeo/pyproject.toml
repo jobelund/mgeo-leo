@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "Reactive Earth Observation demo (marimo + openEO Sentinel-2) for the Lund University Earth Observation (LEO) Group, MGEO department."
 readme = "README.md"
 requires-python = ">=3.13"
-maintainers = [{ name = "José Beltrán", email = "jobel@pm.me" }]
+license = "CC0-1.0"
+authors = [
+    { name = "José Beltrán", email = "jose.beltran@mgeo.lu.se" },
+    { name = "Claude Opus 4.8 (1M context) — Claude Code", email = "noreply@anthropic.com" },
+]
+maintainers = [{ name = "José Beltrán", email = "jose.beltran@mgeo.lu.se" }]
 dependencies = [
     "altair>=6.2.1",
     "dask>=2026.3.0",
