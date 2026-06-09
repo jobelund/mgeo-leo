@@ -1,0 +1,82 @@
+# ---- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+wheels/
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---- Virtual environments / package managers ------------------------------
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.uv/
+.uv-cache/
+pip-log.txt
+
+# ---- Tooling caches --------------------------------------------------------
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pytype/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+
+# ---- Jupyter / marimo ------------------------------------------------------
+__marimo__/
+.ipynb_checkpoints/
+.virtual_documents/
+*.ipynb_checkpoints
+layouts/
+
+# ---- Generated Earth-observation data (downloaded / built by the notebook) -
+openeo_cache/
+ndvi_cube.zarr/
+*.zarr/
+*.nc
+*.tif
+*.tiff
+*.grib
+*.nc.part
+*.zarr.part
+
+# ---- Secrets / credentials -------------------------------------------------
+*.pem
+*.key
+secrets.*
+.netrc
+
+# ---- Claude Code (local, machine-specific) ---------------------------------
+.claude/settings.local.json
+
+# ---- Editors / IDEs --------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+
+# ---- OS cruft --------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
