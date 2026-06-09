@@ -1,20 +1,16 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
-#     "altair==6.2.1",
-#     "anthropic==0.107.1",
-#     "dask==2026.3.0",
-#     "folium==0.20.0",
-#     "geojson==3.3.0",
-#     "h5netcdf==1.8.1",
-#     "h5py==3.16.0",
+#     "altair>=6.2.1",
+#     "dask>=2026.3.0",
+#     "h5netcdf>=1.8.1",
 #     "marimo>=0.23.9",
-#     "matplotlib==3.10.9",
-#     "numpy==2.4.6",
-#     "openeo==0.50.0",
-#     "polars==1.41.2",
-#     "xarray==2025.1.1",
-#     "zarr==3.2.1",
+#     "numpy>=2.4.6",
+#     "openeo>=0.39.1",
+#     "polars>=1.41.2",
+#     "pyproj>=3.7.2",
+#     "xarray>=2026.4.0",
+#     "zarr>=3.2.1",
 # ]
 # ///
 
