@@ -102,6 +102,8 @@ def _(mo):
     source .venv/bin/activate
     ```
 
+    **marimo CLI — commands & flags**
+
     | **uv code** | **marimo** | **options** | **name** | **args** |  description |
     |---|---|---|---|---|---|
     | uv run | marimo edit | | | | *create or edit a new notebook* |
@@ -109,6 +111,8 @@ def _(mo):
     | | marimo run | | notebook.py | | *run as a read only app* |
     | | marimo edit | --no-token | notebook.py |  | *do not create an access token*
     | | marimo edit | --sandbox | notebook.py | | *Run the notebook in an isolated environment* |
+    | | marimo edit | --watch | notebook.py | | *reload the kernel when the file changes on disk* |
+    | | marimo edit | --headless | notebook.py | | *don't auto-open a browser* |
     """)
     return
 
