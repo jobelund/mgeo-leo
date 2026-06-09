@@ -1,0 +1,25 @@
+[project]
+name = "2026-06-08-marimodemo"
+version = "0.1.0"
+description = "Reactive Earth Observation demo (marimo + openEO Sentinel-2) for the Lund University Earth Observation (LEO) Group, MGEO department."
+readme = "README.md"
+requires-python = ">=3.13"
+maintainers = [{ name = "José Beltrán", email = "jobel@pm.me" }]
+dependencies = [
+    "altair>=6.2.1",
+    "dask>=2026.3.0",
+    "marimo>=0.23.9",
+    "numpy>=2.4.6",
+    "openeo>=0.39.1",
+    "polars>=1.41.2",
+    "pyproj>=3.7.2",
+    "xarray>=2026.4.0",
+    "zarr>=3.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "python-lsp-ruff>=2.3.1",
+    "python-lsp-server>=1.14.0",
+    "ruff>=0.15.16",
+]
